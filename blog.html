@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><title>Blog</title>
+    <link rel="canonical" href="blog.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="Blog" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" />
+    
+    <style>
+        .bg-header {
+            background-color: rgba(15, 87, 251, 0.6) !important;
+            background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient( #000000, #000000) !important;
+        }
+
+        .header-text-color {
+            color: #ffffff ;
+        }
+
+        .footer-text-color {
+            color: #ffffff;
+        }
+
+        .footer-text-color .navbar-brand {
+            color: #ffffff ;
+        }
+
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+        .top-area {
+            height: 30rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .header-transparent-layer {
+            display: block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .header-transparent-layer .contents {
+            padding: 2rem;
+        }
+
+        @media (min-width: 801px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 45%;
+                border-radius: 30px;
+                padding: 0;
+                margin-left: 10%;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 80%;
+                border-radius: 30px;
+                padding: 0;
+            }
+            .text-start {
+                text-align: center !important;
+            }
+        }
+        body {
+                    background-color: #ecedef;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(11, 13 ,14, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #2563eb !important;
+                    color:  #ffffff !important;
+                    border: 1px solid #2563eb !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #0b0d0e !important;
+                    background-image: none;
+                }
+.dropdown-content2 a:hover{
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+                .bg-dark, .navbar-brand {
+                    color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #2563eb;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #2563eb !important;
+                }
+
+                .btn-banner-theme {
+                    color: #ffffff;
+                    background-color: #2563eb;
+                    border-color: #2563eb;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #000000;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #2563eb;
+                    border-color: #2563eb;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #000000;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #ffffff;
+                }
+
+                .card-text {
+                    color: #b5b5b5;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+                .article-card-text {
+                    color:  #ffffff;
+                   
+                }
+.article-card-text * {
+                    color: #ffffff !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #0d0d0e;
+
+                }
+
+                .cards-container .card {
+                    background-color: #151516 !important;
+                    border: 2px solid #282828 !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #b5b5b5;
+                }
+                .article-info {
+                    color: #b5b5b5;
+                }
+
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                <span class="navbar-brand header-text-color">customberberrugs</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                    <li class="nav-item {{home_active}}">
+                        <a class="nav-link header-text-color" href="index.html">Home</a>
+                    </li>
+                    <div class="nav-item {{service_active}} dropdown" style="display:">
+                        <button class="header-text-color dropbtn is-mobile">Pages</button>
+                        <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-content2">
+                                <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="the-tradition-culture-behind-berber-weaving.html">The Tradition & Culture Behind Berber Weaving
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="why-berber-rugs-are-taking-over-modern-interiors.html">Why Berber Rugs Are Taking Over Modern Interiors
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="soft-durable-handwoven-the-berber-rug-advantage.html">Soft, Durable & Handwoven: The Berber Rug Advantage
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="buy-custom-berber-rugs-online-with-confidence.html">Buy Custom Berber Rugs Online with Confidence
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="handcrafted-in-the-atlas-mountains-loved-worldwide.html">Handcrafted in the Atlas Mountains, Loved Worldwide
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-to-style-your-living-room-with-a-berber-rug.html">How to Style Your Living Room with a Berber Rug
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="authentic-berber-rugs-from-morocco-to-your-home.html">Authentic Berber Rugs from Morocco to Your Home
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="discover-the-meaning-behind-berber-rug-symbols.html">Discover the Meaning Behind Berber Rug Symbols
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="berber-rugs-vs-other-moroccan-styles-whats-unique.html">Berber Rugs vs Other Moroccan Styles: What’s Unique?
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="best-custom-rug-store-for-natural-wool-berber-rugs.html">Best Custom Rug Store for Natural Wool Berber Rugs
+                                                                                        <span class="border-menu"></span></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item active">
+                        <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item {{contact_active}}" style="display: none">
+                        <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg overflow-hidden custom-position">
+        <div class="header-transparent-layer p-5">
+            <h1 class="display-5 text-capitalize fw-bold header-text-color"><span>Latest Blog Posts</span></h1>
+        </div>
+    </nav>
+</div>
+
+<div class="container px-4 px-lg-5 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor p-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 mx-4">
+        <!-- Heading Row-->
+        <div class="col-lg-12 py-lg-2">
+                    <h2 class="main-heading fs-3">customberberrugs: Latest Blog Posts</h2>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-berber-rugs-are-perfect-for-cozy-living-room-designs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why Berber Rugs are Perfect for Cozy Living Room Designs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Proper maintenance of Berber rugs is essential to preserve their unique beauty and durability. Regular vacuuming is recommended to remove dirt and debris, which can accumulate over time and affect the rug's texture. When vacuuming, it’s important t......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-berber-rugs-are-perfect-for-cozy-living-room-designs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="roundup-of-living-room-decor-ideas-featuring-berber-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Roundup of Living Room Decor Ideas Featuring Berber Rugs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Creating a harmonious living space often depends on the right furniture choices that complement Berber rugs. The earthy tones and unique patterns of these rugs naturally pair well with both modern and traditional furniture styles. Sofas in neutral co......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="roundup-of-living-room-decor-ideas-featuring-berber-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-the-best-berber-rugs-for-living-room-styling.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Berber Rugs for Living Room Styling</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Proper maintenance is essential for preserving the beauty and longevity of Berber rugs. Regular vacuuming helps to remove dirt and debris, preventing them from becoming embedded in the fibers. When vacuuming, it's best to use a vacuum cleaner without......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-berber-rugs-for-living-room-styling.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-the-best-resources-for-learning-about-berber-textiles.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the best resources for learning about Berber textiles</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Numerous museums around the world house exceptional collections of Berber textiles, showcasing the rich heritage and artistry of North African cultures. Notable among these institutions is the Museum of Moroccan Arts in Marrakech, which offers visito......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-resources-for-learning-about-berber-textiles.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="round-up-of-famous-berber-weaving-techniques.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round up of famous Berber weaving techniques</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Weaving holds a central place in the cultural fabric of Berber communities. It serves not only as a means of creating functional items but also as a canvas for self-expression and storytelling. Each piece carries the unique imprint of the weaver’s ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-famous-berber-weaving-techniques.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-difference-between-berber-and-kilims.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the difference between Berber and kilims?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber rugs are known for their durable and resilient nature, making them a popular choice for high-traffic areas in homes. Their thick pile and sturdy construction provide excellent comfort underfoot while also withstanding the wear and tear of ever......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-difference-between-berber-and-kilims.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-makes-berber-carpet-different.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What makes Berber carpet different?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The production and use of Berber carpet present several environmental considerations. Traditionally made from wool or natural fibers, these materials are biodegradable. The renewable nature of wool makes it a more sustainable option compared to synth......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-makes-berber-carpet-different.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-makes-moroccan-rugs-special.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What makes Moroccan rugs special?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Moroccan rugs are renowned for their exceptional durability, often lasting for generations. Made from high-quality wool, cotton, or a blend of materials, these rugs possess natural resilience that withstands the wear and tear of daily life. The dense......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-makes-moroccan-rugs-special.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-makes-berber-rugs-unique-in-the-world-of-textiles.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What makes Berber rugs unique in the world of textiles?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The production of Berber rugs often reflects an alignment with environmental considerations. Many artisans utilize natural materials, such as sheep's wool, which promotes sustainability. These raw materials are typically sourced locally, minimizing t......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-makes-berber-rugs-unique-in-the-world-of-textiles.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-should-i-pay-for-a-rug-in-morocco.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What should I pay for a rug in Morocco?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Morocco offers a rich tapestry of options for purchasing rugs, with both bustling markets and more refined showrooms available. The souks, particularly in cities like Marrakech and Fes, present a vibrant atmosphere where artisans showcase their creat......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-should-i-pay-for-a-rug-in-morocco.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-much-should-a-berber-rug-cost-in-morocco.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How much should a Berber rug cost in Morocco?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Discovering the right places to purchase Berber rugs can enhance the shopping experience in Morocco. Major cities such as Marrakech, Fes, and Essaouira host vibrant markets known as souks. These bustling bazaars are filled with artisans displaying th......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-much-should-a-berber-rug-cost-in-morocco.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-can-you-tell-if-a-moroccan-rug-is-real.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How can you tell if a Moroccan rug is real?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Age plays a crucial role in determining the authenticity of a Moroccan rug. Vintage rugs often showcase a plethora of imperfections and irregularities that serve as markers of their history. These may include variations in dye shades, subtle shifts i......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-can-you-tell-if-a-moroccan-rug-is-real.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-can-you-tell-if-a-wool-rug-is-high-quality.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How can you tell if a wool rug is high quality?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Durability is an essential factor when assessing the quality of a wool rug. High-quality wool typically comes from sheep raised in specific climates, resulting in tighter fibers that are inherently more resistant to wear and tear. The spinning and we......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-can-you-tell-if-a-wool-rug-is-high-quality.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-best-material-for-berber-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the best material for Berber carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The choice of material significantly influences the comfort and texture of Berber carpet. Wool, known for its softness and insulating properties, offers a luxurious feel underfoot. Wool fibers are resilient, allowing for a plush surface that retains ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-best-material-for-berber-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-wool-berber-a-good-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is wool Berber a good carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Wool Berber carpets offer a unique combination of texture and pattern that can enhance various interior styles. Their looped construction not only adds depth but also creates a casual elegance suitable for both contemporary and traditional settings. ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-wool-berber-a-good-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-berber-carpet-good-for-a-living-room.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is Berber carpet good for a living room?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber carpet is often praised for its affordability, especially when compared to other types of flooring. Its unique looped texture not only contributes to a distinct aesthetic but also offers durability, making it a worthwhile investment for areas ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-berber-carpet-good-for-a-living-room.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-style-a-berber-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to style a Berber rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Style your Berber rug to reflect the changing seasons. In spring, consider adding light and airy accessories like pastel-colored cushions and airy throws, which bring a sense of freshness to your space. When summer arrives, you might opt for vibrant ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-style-a-berber-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-is-berber-carpet-so-hard-to-clean.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why is Berber carpet so hard to clean?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Cleaning Berber carpets requires careful consideration due to their unique texture and construction. Regular maintenance involves vacuuming with a vacuum cleaner that has a beater bar or rotating brush feature. This tool helps lift dirt and debris tr......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-is-berber-carpet-so-hard-to-clean.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-life-expectancy-of-berber-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the life expectancy of Berber carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber carpets, known for their looped construction and durability, can encounter a range of issues over time. Common problems include snags, frayed edges, and discoloration. Addressing these challenges promptly is crucial to preserving the carpet's ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-life-expectancy-of-berber-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-are-the-advantages-of-berber-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What are the advantages of Berber carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber carpet is often made from natural fibers such as wool or environmentally friendly synthetic materials, contributing to a more sustainable flooring option. The use of renewable resources in its production process reduces the overall carbon foot......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-are-the-advantages-of-berber-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-popular-handcrafted-items-from-the-atlas-mountains.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of Popular Handcrafted Items from the Atlas Mountains</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Renowned for their vibrant colors and intricate designs, these textiles carry deep cultural significance. Each piece often reflects the personal experiences and identities of the weaver. Patterns may vary from one region to another, showcasing the di......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-popular-handcrafted-items-from-the-atlas-mountains.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="round-up-of-unique-handcrafted-treasures-from-the-atlas-mountains.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Unique Handcrafted Treasures from the Atlas Mountains</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The Atlas Mountains are home to a rich tradition of wood carving, characterized by detailed craftsmanship and intricate designs. Artisans skillfully transform local hardwoods into stunning works of art, often inspired by nature and everyday life. The......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-unique-handcrafted-treasures-from-the-atlas-mountains.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-makes-atlas-mountain-crafts-stand-out-in-global-markets.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What Makes Atlas Mountain Crafts Stand Out in Global Markets</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The rise of Atlas Mountain crafts in global markets has been driven by a unique combination of rich cultural heritage and quality craftsmanship. Artisans produce a variety of hand-crafted goods that reflect the region’s history and traditions. This......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-makes-atlas-mountain-crafts-stand-out-in-global-markets.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-does-the-berber-carpet-symbolize.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What does the Berber carpet symbolize?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Throughout history, Berber carpets have been more than mere decorative pieces; they serve as indicators of social standing and prestige. Traditionally crafted by nomadic tribes in North Africa, these carpets reflect the artisan's skill and the family......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-does-the-berber-carpet-symbolize.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-do-symbols-on-rugs-mean.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What do symbols on rugs mean?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Rug designs vary significantly across different regions, reflecting the unique cultures and traditions of the artisans who create them. In Turkey, for example, intricate geometric patterns frequently symbolize protection and fertility. Meanwhile, Per......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-do-symbols-on-rugs-mean.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-do-the-berber-symbols-mean.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What do the Berber symbols mean?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber textiles are a vibrant expression of cultural identity, merging aesthetic beauty with deep symbolic meaning. Each piece often tells a story, conveying beliefs, values, and heritage through intricate patterns and colors. The use of geometric sh......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-do-the-berber-symbols-mean.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-berber-carpet-making-a-comeback.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is Berber carpet making a comeback?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber carpets require regular maintenance to remain in good condition. Vacuuming should be done at least once a week to remove dirt and debris. Using a vacuum cleaner with a beater bar can help lift dirt from the fibers. Spot cleaning is essential f......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-berber-carpet-making-a-comeback.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-people-still-use-berber-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do people still use Berber carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Traditionally favored for its durability and resilience, Berber carpet remains a common choice in various commercial settings. Its tight looped construction provides a strong barrier against wear and tear, making it ideal for high-traffic areas such ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-people-still-use-berber-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-berber-rugs-out-of-style.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are Berber rugs out of style?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber rugs require regular care to maintain their beauty and functionality. Routine vacuuming is essential to remove dirt and debris, which can accumulate and cause wear over time. It is best to use a vacuum without a beater bar, as this can prevent......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-berber-rugs-out-of-style.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-much-should-i-pay-for-a-berber-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How much should I pay for a berber rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When shopping for a Berber rug, several key characteristics can help distinguish authentic pieces from imitations. True Berber rugs are predominantly handcrafted, using traditional techniques passed down through generations. Look for irregularities i......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-much-should-i-pay-for-a-berber-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-are-the-disadvantages-of-berber-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What are the disadvantages of Berber carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber carpet, while visually appealing and durable, can serve as a trap for allergens and dust particles. The tightly woven fibers often create a surface that allows for the accumulation of dust mites, pet dander, and pollen. In homes with allergy s......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-are-the-disadvantages-of-berber-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-berber-rugs-still-in-style.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-23</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Carrion Reyes</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are Berber rugs still in style?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The commitment to sustainability in the production of Berber rugs plays a crucial role in their continued appeal. Crafted by hand using natural materials such as wool, these rugs often come from local artisans who employ traditional techniques. This ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-berber-rugs-still-in-style.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color">
+
+    <div class="container text-white">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="footer-text-color">
+                            <h2><a style="color: inherit;text-decoration: auto;" href="index.html">customberberrugs</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color"></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color "></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color"></td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: none"><a class="text-white footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center">Copyright &copy; customberberrugs. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
+            <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+        </div>
+        
+    </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+
+</html>
